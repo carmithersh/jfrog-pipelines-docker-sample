@@ -12,7 +12,7 @@ resources:
     configuration:
       registry: art                                # <-- replace with your artifactory integration
       sourceRepository: docker-registry               # <-- required if registry is Artifactory
-      imageName: carmittest.jfrog.io/artifactory/docker-registry/jfrog-pipelines-docker-sample  # < -- replace with your image path and name
+      imageName: carmittest.jfrog.io/artifactory/docker-registry/jfrog-pipelines-docker-sample   # < -- replace with your image path and name
       imageTag: latest
       autoPull: true
       
