@@ -3,7 +3,7 @@
 echo "================= Adding some global settings ==================="
 mkdir -p "$HOME/.ssh/"
 mv /config "$HOME/.ssh/"
-mv /90forceyes /etc/apt/apt.conf.d/
+mv /90forceyes /etc/apt/apt.conf.d/ 
 touch "$HOME/.ssh/known_hosts"
 mkdir -p /etc/drydock 
 
